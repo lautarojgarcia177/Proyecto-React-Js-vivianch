@@ -1,9 +1,10 @@
-import react from 'react';
-
-const Navbar = () =>{
+import './CartWidget';
+import { CartWidget } from './CartWidget';
+export const NavBar = () =>{
     return(
       <nav className="navbar navbar-dark bg-dark fixed-top">
   <div className="container-fluid">
+      <CartWidget/>
     <a className="navbar-brand" href="#">VIVIANCH</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span className="navbar-toggler-icon"></span>
@@ -31,4 +32,3 @@ const Navbar = () =>{
 </nav>
     )
 }
-export default Navbar;
