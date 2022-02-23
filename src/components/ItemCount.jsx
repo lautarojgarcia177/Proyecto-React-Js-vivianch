@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+/*import React, {useState} from "react";
 
 export const ItemCount=({initial, stock, onAdd})=>{
       const [count, setCount] = useState(initial);
@@ -22,4 +22,4 @@ export const ItemCount=({initial, stock, onAdd})=>{
 <button onClick={onAdd(count)} type="button" className="btn btn-primary">Agregar al carrito</button>
 </div>
     )
-}
+}*/
