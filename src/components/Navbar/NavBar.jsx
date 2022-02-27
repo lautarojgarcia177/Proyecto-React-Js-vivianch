@@ -1,5 +1,5 @@
-import './CartWidget';
-import { CartWidget } from './CartWidget';
+import './CartWidget/CartWidget';
+import { CartWidget } from './CartWidget/CartWidget';
 export const NavBar = () =>{
     return(
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
