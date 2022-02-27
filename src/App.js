@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import {NavBar} from './components/NavBar';
 import {ItemListContainer} from './components/ItemListContainer';
-
+import {ItemDetailContainer} from './components/ItemDetailContainer';
 
 
 /*const onAdd= (count)=>{
@@ -18,7 +18,7 @@ function App() {
       <header>
      <NavBar/>
      </header>
-     <ItemListContainer/>
+     <ItemDetailContainer/>
      </div>
     </React.Fragment>
   );
